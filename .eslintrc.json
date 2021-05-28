@@ -76,6 +76,12 @@
         "tsx": "never"
       }
     ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
